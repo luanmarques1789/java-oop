@@ -1,4 +1,4 @@
-package aula08;
+package cursoEmVideo.aula08;
 
 abstract class Pessoa {
 	private String nome;

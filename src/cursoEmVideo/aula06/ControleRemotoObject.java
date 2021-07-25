@@ -1,4 +1,4 @@
-package aula06;
+package cursoEmVideo.aula06;
 
 public class ControleRemotoObject {
 
@@ -9,9 +9,6 @@ public class ControleRemotoObject {
 		c.menosVolume();
 		c.abrirMenu();
 		c.fecharMenu();
-		
-		
-		
 
 	}
 }

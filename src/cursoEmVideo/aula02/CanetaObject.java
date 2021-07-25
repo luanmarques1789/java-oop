@@ -1,4 +1,4 @@
-package aula02;
+package cursoEmVideo.aula02;
 
 public class CanetaObject {
 
@@ -11,9 +11,9 @@ public class CanetaObject {
 		c1.tampar();
 		c1.status();
 		c1.rabiscar();
-		
+
 		System.out.println();
-		
+
 		Caneta c2 = new Caneta();
 		c2.modelo = "faber";
 		c2.cor = "vermelha";

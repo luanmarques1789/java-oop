@@ -1,4 +1,4 @@
-package aula07;
+package cursoEmVideo.aula07;
 
 public class Lutador implements LutadorInterface {
 
@@ -78,13 +78,13 @@ public class Lutador implements LutadorInterface {
 
 	private void setCategoria() {
 		if (getPeso() < 52.2) {
-			this.categoria = "Inválido";
+			this.categoria = "Invï¿½lido";
 
 		} else if (getPeso() <= 70.3) {
 			this.categoria = "Leve";
 
 		} else if (getPeso() <= 83.9) {
-			this.categoria = "Médio";
+			this.categoria = "Mï¿½dio";
 
 		} else if (getPeso() <= 99.5) {
 			this.categoria = "Pesado";
@@ -94,7 +94,7 @@ public class Lutador implements LutadorInterface {
 			this.categoria = "Peso pesado";
 
 		} else {
-			this.categoria = "Inválido";
+			this.categoria = "Invï¿½lido";
 		}
 	}
 
@@ -133,14 +133,13 @@ public class Lutador implements LutadorInterface {
 		System.out.printf(
 				"CHEGOU A HORA!!!\nEu vos apresento %s\nOrigem: %s\nIdade: %d anos\nAltura: %1.2f m\nPeso: %3.2f Kg "
 						+ "ganhou %d, perdeu %d e empatou %d lutas!\n-----------------------------------\n\n",
-				getNome(), getNacionalidade(), getIdade(), getAltura(), getPeso(), getVitorias(), getDerrotas(),
-				getEmpates());
+				getNome(), getNacionalidade(), getIdade(), getAltura(), getPeso(), getVitorias(), getDerrotas(), getEmpates());
 
 	}
 
 	public void status() {
 		System.out.printf(
-				"Nome: %s\nCategoria: %s\nAltura: %1.2f m\nPeso: %3.2f Kg\nVitórias: %d\nDerrotas: %d\nEmpates: %d\n\n",
+				"Nome: %s\nCategoria: %s\nAltura: %1.2f m\nPeso: %3.2f Kg\nVitï¿½rias: %d\nDerrotas: %d\nEmpates: %d\n\n",
 				getNome(), getCategoria(), getAltura(), getPeso(), getVitorias(), getDerrotas(), getEmpates());
 
 	}

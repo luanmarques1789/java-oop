@@ -1,8 +1,8 @@
-package aula05;
+package cursoEmVideo.aula05;
 
 public class ContaBanco {
 	public int numConta;
-	protected String tipo; // cc - conta corrente, cp - conta poupança
+	protected String tipo; // cc - conta corrente, cp - conta poupanï¿½a
 	private String dono;
 	private double saldo;
 	private boolean status;
@@ -30,7 +30,7 @@ public class ContaBanco {
 			setStatus(false);
 
 		} else {
-			System.out.println("Esta conta ainda possui saldo, logo não pode ser fechada.");
+			System.out.println("Esta conta ainda possui saldo, logo nï¿½o pode ser fechada.");
 
 		}
 	}
@@ -40,7 +40,7 @@ public class ContaBanco {
 			setSaldo(getSaldo() + d);
 
 		} else {
-			System.out.println("Esta conta ainda está fechada. Por favor, abra-a!");
+			System.out.println("Esta conta ainda estï¿½ fechada. Por favor, abra-a!");
 		}
 	}
 
@@ -53,7 +53,7 @@ public class ContaBanco {
 
 		} else {
 
-			System.out.println("A conta não foi aberta!");
+			System.out.println("A conta nï¿½o foi aberta!");
 		}
 	}
 
@@ -68,7 +68,7 @@ public class ContaBanco {
 			setSaldo(getSaldo() - v2);
 
 		} else {
-			System.out.println("A conta não foi aberta!");
+			System.out.println("A conta nï¿½o foi aberta!");
 
 		}
 	}

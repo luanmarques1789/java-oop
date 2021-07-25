@@ -1,4 +1,4 @@
-package aula08;
+package cursoEmVideo.aula08;
 
 public class Bolsista extends Aluno {
 	private float bolsa;
@@ -10,9 +10,9 @@ public class Bolsista extends Aluno {
 	public void setBolsa(float bolsa) {
 		this.bolsa = bolsa;
 	}
-	
+
 	@Override
-	public void pagarMensalidade	() {
-		System.out.println(getNome() + " é bolsista! Desconto de " + getBolsa() + " porcento");
+	public void pagarMensalidade() {
+		System.out.println(getNome() + " ï¿½ bolsista! Desconto de " + getBolsa() + " porcento");
 	}
 }

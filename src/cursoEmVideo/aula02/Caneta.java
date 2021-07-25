@@ -1,4 +1,4 @@
-package aula02;
+package cursoEmVideo.aula02;
 
 public class Caneta {
 	String modelo;
@@ -23,7 +23,7 @@ public class Caneta {
 	void tampar() {
 		this.tampada = true;
 	}
-	
+
 	void destampar() {
 		this.tampada = false;
 	}

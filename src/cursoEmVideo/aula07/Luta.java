@@ -1,4 +1,4 @@
-package aula07;
+package cursoEmVideo.aula07;
 
 import java.util.Random;
 
@@ -88,11 +88,11 @@ public class Luta implements LutaInterface {
 				desafiado.perderLuta();
 				desafiante.ganharLuta();
 				break;
-				
+
 			default:
 				System.out.println("Error!");
 			}
-			
+
 		} else {
 			System.out.println("The fight CANNOT happen!");
 

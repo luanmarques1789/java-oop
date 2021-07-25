@@ -1,4 +1,4 @@
-package aula02;
+package cursoEmVideo.aula02;
 
 public class AulaObject {
 

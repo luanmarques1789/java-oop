@@ -1,4 +1,4 @@
-package aula06;
+package cursoEmVideo.aula06;
 
 public class ControleRemoto implements Controlador {
 	static int aux;
@@ -15,7 +15,7 @@ public class ControleRemoto implements Controlador {
 		setTocando(false);
 	}
 
-	// Recomenda-se que os métodos assessores e modificadores sejam públicos
+	// Recomenda-se que os mï¿½todos assessores e modificadores sejam pï¿½blicos
 	public int getVolume() {
 		return this.volume;
 	}
@@ -113,7 +113,7 @@ public class ControleRemoto implements Controlador {
 	public void play() {
 		if (isLigado() && !(isTocando())) {
 			setTocando(true);
-			System.out.println("A TV está tocando!");
+			System.out.println("A TV estï¿½ tocando!");
 		}
 	}
 
@@ -121,7 +121,7 @@ public class ControleRemoto implements Controlador {
 	public void pause() {
 		if (isLigado() && isTocando()) {
 			setTocando(false);
-			System.out.println("A TV NÃO está tocando!");
+			System.out.println("A TV Nï¿½O estï¿½ tocando!");
 		}
 	}
 

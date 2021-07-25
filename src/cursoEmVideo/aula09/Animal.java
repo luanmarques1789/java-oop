@@ -1,4 +1,4 @@
-package aula09;
+package cursoEmVideo.aula09;
 
 public abstract class Animal {
 	protected float peso;

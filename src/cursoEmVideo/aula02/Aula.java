@@ -1,21 +1,23 @@
-package aula02;
+package cursoEmVideo.aula02;
 
 public class Aula {
 	String disciplina; // disciplina
-	float cargaHoraria; 
+	float cargaHoraria;
 	int qtdAlunos; // quantidade de alunos
-	String professor; // 
+	String professor; //
 	boolean aulaFeita = false;
 	boolean cancelada = false;
-	
+
 	void status() {
-		System.out.printf("Disciplina: %s%nCarga horária: %3.1f%nProfessor(a): %s%nQuantidade de discentes: %d%nAula preparada: %b%nAula cancelada: %b%n", this.disciplina, this.cargaHoraria, this.professor, this.qtdAlunos, this.aulaFeita, this.cancelada);
-	}	
-	
+		System.out.printf(
+				"Disciplina: %s%nCarga horï¿½ria: %3.1f%nProfessor(a): %s%nQuantidade de discentes: %d%nAula preparada: %b%nAula cancelada: %b%n",
+				this.disciplina, this.cargaHoraria, this.professor, this.qtdAlunos, this.aulaFeita, this.cancelada);
+	}
+
 	void prepararAula() {
 		this.aulaFeita = true;
 	}
-	
+
 	void cancelarAula() {
 		this.cancelada = true;
 	}

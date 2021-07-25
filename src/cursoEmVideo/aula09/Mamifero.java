@@ -1,4 +1,4 @@
-package aula09;
+package cursoEmVideo.aula09;
 
 public class Mamifero extends Animal {
 	private String corPelo;
@@ -14,19 +14,19 @@ public class Mamifero extends Animal {
 	@Override
 	public void locomover() {
 		System.out.println("Andando/correndo...");
-		
+
 	}
 
 	@Override
 	public void alimentar() {
 		System.out.println("Mamando");
-		
+
 	}
 
 	@Override
 	public void emitirSom() {
-		System.out.println("Som de mamífero");
-		
+		System.out.println("Som de mamï¿½fero");
+
 	}
 
 }

@@ -1,24 +1,23 @@
-package aula08;
-
+package cursoEmVideo.aula08;
 
 public class ProjectPessoas {
 
 	public static void main(String[] args) {
 		Aluno al = new Aluno();
-		al.setNome("Cláudio");
+		al.setNome("Clï¿½udio");
 		al.setMatr(1111);
 		al.setIdade(37);
-		al.setCurso("Informática");
+		al.setCurso("Informï¿½tica");
 		al.setMale(true);
 		al.pagarMensalidade();
-		
+
 		Bolsista bol = new Bolsista();
 		bol.setNome("Renan");
 		bol.setIdade(30);
-		bol.setCurso("Informática");
+		bol.setCurso("Informï¿½tica");
 		bol.setBolsa(30);
 		bol.setMale(true);
-		bol.pagarMensalidade();		
-			
+		bol.pagarMensalidade();
+
 	}
 }

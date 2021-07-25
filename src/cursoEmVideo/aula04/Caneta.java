@@ -1,4 +1,4 @@
-package aula04;
+package cursoEmVideo.aula04;
 
 public class Caneta {
 
