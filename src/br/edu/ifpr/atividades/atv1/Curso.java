@@ -1,4 +1,4 @@
-package ifpr.atividades.atv1;
+package br.edu.ifpr.atividades.atv1;
 
 public class Curso {
 	String nome;

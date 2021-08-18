@@ -1,9 +1,17 @@
-package ifpr.atividades.atv2;
+package br.edu.ifpr.atividades.atv2;
 
 public class Sala {
-	int capacidade;
-	String nome;
-	String local;
+	private int capacidade;
+	private String nome;
+	private String local;
+
+	/**
+	 * Default constructor
+	 */
+	public Sala(/** No params */
+	) {
+		// No code
+	}
 
 	Sala(int capacidade, String nome, String local) {
 		this.capacidade = capacidade;

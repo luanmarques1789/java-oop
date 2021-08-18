@@ -1,13 +1,13 @@
-package ifpr.atividades.atv2;
+package br.edu.ifpr.atividades.atv2;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Palestra {
-	String tema;
-	Date diaHora;
-	boolean exigeFrequencia;
+	private String tema;
+	private Date diaHora;
+	private boolean exigeFrequencia;
 
 	/**
 	 * Construtor
@@ -27,5 +27,29 @@ public class Palestra {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	public String getTema() {
+		return this.tema;
+	}
+
+	public void setTema(String tema) {
+		this.tema = tema;
+	}
+
+	public Date getDiaHora() {
+		return this.diaHora;
+	}
+
+	public void setDiaHora(Date diaHora) {
+		this.diaHora = diaHora;
+	}
+
+	public Boolean isExigeFrequencia() {
+		return this.exigeFrequencia;
+	}
+
+	public void setExigeFrequencia(boolean exigeFrequencia) {
+		this.exigeFrequencia = exigeFrequencia;
 	}
 }
