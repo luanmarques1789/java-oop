@@ -9,10 +9,4 @@ public class Palestrante {
 	public String cidadeNascimento;
 	public String estadoNascimento;
 
-	Palestrante(String nome, String cpf, String rg) {
-		this.nome = nome;
-		this.cpf = cpf;
-		this.rg = rg;
-	}
-
 }
