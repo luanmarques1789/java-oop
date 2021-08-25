@@ -1,12 +1,12 @@
 package br.edu.ifpr.palestra.modelo;
 
 public class Palestrante {
-	public String nome;
-	public String cpf;
-	public String rg;
-	public String endereco;
-	public String dataNascimento;
-	public String cidadeNascimento;
-	public String estadoNascimento;
+	private String nome;
+	private String cpf;
+	private String rg;
+	private String endereco;
+	private String dataNascimento;
+	private String cidadeNascimento;
+	private String estadoNascimento;
 
 }

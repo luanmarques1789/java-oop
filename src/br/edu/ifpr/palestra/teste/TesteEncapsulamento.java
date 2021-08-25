@@ -11,8 +11,5 @@ public class TesteEncapsulamento {
     Palestra palestra = new Palestra();
     Certificado certificado = new Certificado();
 
-    palestrante.nome = "Ricardo";
-    certificado.livro = 500;
-    palestra.tema = "Assédio Sexual";
   }
 }
