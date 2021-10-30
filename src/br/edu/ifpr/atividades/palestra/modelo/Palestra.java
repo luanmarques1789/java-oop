@@ -1,4 +1,4 @@
-package br.edu.ifpr.palestra.modelo;
+package br.edu.ifpr.atividades.palestra.modelo;
 
 public class Palestra {
 	private String tema;

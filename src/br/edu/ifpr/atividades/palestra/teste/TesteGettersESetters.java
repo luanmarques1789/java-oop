@@ -1,6 +1,6 @@
-package br.edu.ifpr.palestra.teste;
+package br.edu.ifpr.atividades.palestra.teste;
 
-import br.edu.ifpr.palestra.modelo.Palestrante;
+import br.edu.ifpr.atividades.palestra.modelo.Palestrante;
 
 public class TesteGettersESetters {
   public static void main(String[] args) {

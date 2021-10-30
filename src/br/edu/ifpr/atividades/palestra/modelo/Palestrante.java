@@ -1,4 +1,4 @@
-package br.edu.ifpr.palestra.modelo;
+package br.edu.ifpr.atividades.palestra.modelo;
 
 public class Palestrante {
 	private String nome, CPF, RG, endereco, dataNascimento, cidadeNascimento, estadoNascimento;
